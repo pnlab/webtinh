@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cửa hàng</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="sanpham.css">
+  <link rel="stylesheet" href="bocuc.css">
+<body>
+  <!-- Than -->
+  <div class="than">
+    <!-- Thanh tren -->
+    <div class="tieu-de">
+      <div class="bieu-tuong">
+        <a href="/"><img src="https://cdn-icons-png.flaticon.com/512/4163/4163765.png" alt="thuc pham"></a>
+        <!-- Menu ds các loại mặt hàng -->
+        <div class="danhmuc">
+          <button class="danhmuc-nut" onclick="hienThiDanhMuc()">Danh mục
+          </button>
+          <div class="danhmuc-noidung" id="danhmuc-nd">
+            <a href="#">Nước uống</a>
+            <a href="#">Rau củ</a>
+            <a href="#">Thịt và cá</a>
+            <a href="#">Trứng và sữa</a>
+            <a href="#">Bánh</a>
+            <a href="#">Gia vị</a>
+          </div>
+        </div>
+      </div>
+      <div class="tim-kiem">
+        <form>
+          <div>
+            <input placeholder="Tìm kiếm sản phẩm bạn muốn tại đây" value="" />
+          </div>
+        </form>
+      </div>
+      <ul class="dieu-huong">
+        <li>
+          <a class="" href="/donhang.html">Đơn hàng</a>
+        </li>
+        <li>
+          <a class="" href="/lienhe.html">Liên hệ</a>
+        </li>
+        <div class="dieu-huong-phai">
+          <div class="bieu_tuong_gio_hang">
+            <a href="/giohang.html">
+              <img class="dieuhuong"
+                src="https://thumbs.dreamstime.com/b/shopping-cart-icon-trolley-icon-shopping-cart-icon-trolley-icon-vector-illustration-isolated-white-background-163727286.jpg"
+                alt="">
+              <div class='giohang-soluong'>5</div>
+            </a>
+          </div>
+          <div class="nut-dang-nhap">
+            <a href="/dangnhap.html">
+              <button>
+                <img class="dieuhuong" src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+                  alt="">
+              </button>
+            </a>
+          </div>
+        </div>
+      </ul>
+    </div>
+
+    <div class="noi_dung ">
+      <div id="ds-san-pham" class="danh_sach_san_pham">
+        <div class="san_pham">
+          <div class="noi_dung_san_pham">
+            <p class="ghi_chu">
+              Thực phẩm
+            </p>
+            <img class="anh-minh_hoa_san_pham"
+              src="https://cdn-crownx.winmart.vn/images/prod/tr%E1%BB%A9ng%20g%C3%A0%20s%E1%BA%A1ch%20o'lala%20h%E1%BB%99p%2010_tc%20tr%E1%BB%A9ng%20g%C3%A0%20s%E1%BA%A1ch%20o'lala%20h%E1%BB%99p%2010_tc_905612e1-b40b-4002-9996-45829206e477.jpg" />
+            <div class="can_le"></div>
+            <h4 class="ten_san_pham">Trứng gà Happy Egg</h4>
+            <p class="mo_ta_san_pham"></p>
+            <div class="gia_san_pham">
+              <p>₫30.000</p>
+            </div>
+            <button class="nut_them_vao_gio_hang ">
+              Thêm vào giỏ hàng
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="sanpham.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
